@@ -1,7 +1,8 @@
 const accountId = 123212321;
 let accountEmail = 'Asad@google.com';
 var accountPassword = '21322';
-accountCity = 'lahore';
+accountCity = 'lahore'; // do use of this type variable declaration
+let accountState; 
 
 // value again assign and investigation process what will happed
 
@@ -15,6 +16,6 @@ accountEmail = 'ai@ai.com';
 accountPassword = '2121212';
 accountCity = 'Faisalabad';
 
-console.table([accountEmail, accountPassword, accountCity]);
+console.table([accountEmail, accountPassword, accountCity, accountState]);
 
 console.log(accountId);
