@@ -82,6 +82,41 @@ let str3 = str1 + str2
 // console.log('1' + 2 + 2)
 // console.log(1 + 2 + '3')
 
+// console.log(3  + 5 * 5 % 3)
+// console.log((3  + 5) * 5 % 3)
+// console.log(((3  + 5) * 5) % 3)
+
+// console.log(+true)
+// console.log(true)
+// console.log(true+) error
+
+let num1 , num2,num3
+
+num1 = num2 = num3 = 2+ 2        
+
+// console.table([num1 , num2, num3]);
+
+// increment or decrement operation 
+
+// let getCounter =100
+// ++getCounter;
+// console.log(getCounter);
+
+// --getCounter;
+
+// console.log(getCounter)
+
+
+// check differences 
+
+let x =33
+let b = x++
+console.log('show out put', b)
+
+let a = 33
+let y = ++a
+
+console.log('show out put', y)
 
 
 
