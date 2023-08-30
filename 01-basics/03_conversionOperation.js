@@ -36,8 +36,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let stringValue = 33
 let converSrringValue = String(stringValue)
-console.log(converSrringValue);
-console.log(typeof converSrringValue);
+// console.log(converSrringValue);
+// console.log(typeof converSrringValue);
 
 
 // Check validation and validity is true then set value otherwise show message this is not a number
@@ -51,3 +51,37 @@ console.log(typeof converSrringValue);
 //     console.log('Conversion to number was not successful');
 //     console.log(validNumber)
 //   }
+
+/*  **************** Operations ********************** */
+
+let scored = 23
+let negScored = -scored
+// console.log(negScored)
+
+//  Arthimatic operation 
+
+// console.log(2+2)
+// console.log(2*2)
+// console.log(2-2)
+// console.log(2/2)
+// console.log(2%2)
+// console.log(2**2) POWERE
+
+// concatination 
+
+let str1 ='hello'
+let str2 = ' Asad'
+let str3 = str1 + str2
+// console.log(str3)
+
+// problems senarios 
+
+// console.log('1'+ 3)
+// console.log('3'+ 1)
+// console.log(3 + '1')
+// console.log('1' + 2 + 2)
+// console.log(1 + 2 + '3')
+
+
+
+
