@@ -11,7 +11,7 @@ let booleanValue = true
 let symbolValueId = Symbol('323');  // yeh unique value k liyea istemal krtye hia 
 let symbolValueId2 = Symbol('323');  // yeh unique value k liyea istemal krtye hia 
 
-console.log(symbolValueId === symbolValueId2);
+// console.log(symbolValueId === symbolValueId2);
 
 // non-primitive ko reference data type kahtye hia
 
@@ -19,16 +19,51 @@ console.log(symbolValueId === symbolValueId2);
 
 
 const stringArray = ["Asad ilays", '23', 'software enginer']
-console.log(stringArray);
+// console.log(stringArray);
 
 let personObj = {
     name:'Asad',
     age:23
 }
 
-console.log(personObj);
+// console.log(personObj);
 
 const myFunction = function printName(){
     console.log("Asad");
 }
-console.log( myFunction)
+// console.log( myFunction)
+
+// +++++++++++++++++++ Stack and Heap ++++++++++++++++++
+
+
+// Stack (primative) , Heap (Non-Primative)  Data Types
+
+ let myYoutubeName = "MuhammadAsadIlyas";
+ let anotherName = myYoutubeName;
+
+ anotherName = 'TaDeveloper';
+
+ console.log(myYoutubeName);
+ console.log(anotherName);
+
+ let user = {
+    email:"user@google.com",
+    uid:"1221dfdsfds"
+ }
+
+let userTwo = user;
+
+userTwo.email = 'asadilyas@gmail.com';
+
+console.log(user, userTwo);
+
+
+
+
+
+
+
+
+
+
+
